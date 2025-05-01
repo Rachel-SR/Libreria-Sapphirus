@@ -717,7 +717,7 @@ td strong {
         margin-top: 15%;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:768px){
     .titulo h1 {
         font-size: 40px;
         width: 47%;
