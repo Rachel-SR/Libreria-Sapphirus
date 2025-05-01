@@ -719,16 +719,22 @@ td strong {
 }
 @media screen and (max-width:768px){
     .titulo h1 {
-        font-size: 40px;
-        width: 50%;
-        margin-bottom: -50px;
+        font-size: 50px;
+        width: 60%;
+        margin-bottom: 15px;
+        margin-left: 25%;
+        margin-right: 2%;
     }
     .titulo h2 {
-        font-size: 30px;
+        font-size: 25px;
         display: inline-block;
         margin-bottom: 35px;
-        margin-left: 40%;
-        margin-right: 1px;
+        margin-left: 39%;
+        margin-right: 2%;
+        margin-top: 6%;
+    }
+    .titulo img {
+        display: none;
     }
     /*Menú hamburguesa*/
     .menu-icon {
