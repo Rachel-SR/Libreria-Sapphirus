@@ -718,20 +718,17 @@ td strong {
     }
 }
 @media screen and (max-width:576px){
+    .titulo {
+        text-align: center;
+        padding: 10px;
+    }
     .titulo h1 {
-        font-size: 15px;
-        width: 60%;
-        margin-bottom: 15px;
-        margin-left: 25%;
-        margin-right: 2%;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
     }
     .titulo h2 {
-        font-size: 12px;
-        display: inline-block;
-        margin-bottom: 35px;
-        margin-left: 39%;
-        margin-right: 2%;
-        margin-top: 6%;
+        font-size: 1rem;
+        margin-bottom: 20px;
     }
     .titulo img {
         display: none;
