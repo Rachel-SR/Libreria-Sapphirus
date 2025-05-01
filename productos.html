@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="icon" type="image/x-icon" href="imagenes/favicon.png">
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>PRODUCTOS - LIBRERÍA SAPPHIRUS</title>
+    </head>
+    <body>
+        <a id="volverarriba"></a>
+        <header>
+            <div class="titulo">
+                <h1>Librería Sapphirus</h1>
+                <h2>El universo de los libros</h2>
+                <img src="imagenes/icono-libro.png" alt="Icono de varios libros">
+            </div>
+        </header>
+        <input type="checkbox" id="menu-libro">
+        <label class="menu-icon" for="menu-libro">
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                 width="35"
+                 height="35" 
+                 fill="currentColor" 
+                 class="list_icon" 
+                 viewBox="0 0 16 16">
+                    <path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                </svg>
+            </label>
+        <nav>
+            <ul>
+                <li><a href="contacto.html"> Contacto </a></li>              
+                <li><a href="noticias.html"> Noticias </a></li>
+                <li><a href="servicios.html"> Servicios </a></li>
+                <li><a href="productos.html"> Productos </a></li>
+                <li><a href="quienes-somos.html"> Quienes somos </a></li>
+                <li><a href="index.html"> Inicio </a></li>
+            </ul>
+        </nav>
+        <section class="informacion">
+            <article>
+                <h3>Productos que se pueden encontrar en la librería</h3>
+                <p>A través de esta web no se pueden comprar los productos, pero se ha hecho un resumen de los podructos disponibles en la librería y se puede hacer encargos a través del formulario de <a href="#ENCARGOS">más abajo.</a></p>
+            </article>
+        </section>
+        <section class="productos">
+            <figure>
+                <img src="imagenes/papeleria.png" alt="Imagen de la categoría de papeleria">
+                    <figcaption><strong>PAPELERÍA.</strong> Todo tipo de material de papelería, folios, cuadernos, archivadores, bolígrafos...</figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/libros.png" alt="Imagen de libros formando un corazón">
+                    <figcaption><strong>LIBROS.</strong> Un universo entero de libros de fantasía, juvenil, novela negra, historia, de escritores famosos y de los que acaban de empezar.</figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/merchandising.png" alt="Imagen con varios logos de libros, series y películas">
+                    <figcaption><strong>MERCHANDISING.</strong> Laveros, camisetas, marcapáginas, funkos... de Harry Potter, Juego de tronos, Disney, Alas de sangre y más.</figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/mochilas.png" alt="Imagen con material escolar">
+                    <figcaption><strong>MOCHILAS Y MÁS.</strong> Gran variedad de mochilas y estuches para el colegio, el instituto o el trabajo.</figcaption>
+            </figure>
+            <figure>
+                <img src="imagenes/fundas.png" alt="Imagen de tres fundas con foto">
+                    <figcaption><strong>FUNDAS PERSONALIZADAS.</strong> Fundas para smarphone o tablet con las fotos que se deseen.</figcaption>
+            </figure>
+        </section>
+        <section class="encargos">
+            <aside>
+                <h4><a name="ENCARGOS">ENCARGOS</a></h4>
+                <p>En el formulario que está a continuación sólo se pueden encargar material de papelería y libros, para otros encargos hay un anexo más abajo*.</p>
+                <form>
+                    <label>Nombre</label>
+                    <input type="text" name="nombre">
+                    <br><br>
+                    <label>Encargo</label>
+                    <select name="¿Qué neceitas?">
+                        <option value="OBJETO DE PAPELERÍA">OBJETO DE PAPELERÍA</option>
+                        <option value="LIBRO">LIBRO</option>
+                    </select>
+                    <br><br>
+                    <label>Describir aquí brevemente el encargo </label>
+                    <textarea rows="2" cols="30" name="libro recomendado"></textarea>
+                    <br><br>
+                    <label>Email</label>
+                    <input type="text" name="email">
+                    <br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+                <p>* Para <strong>"FUNDAS PERSONALIZADAS"</strong> enviar un mail a <em>libreria.sapphirus@gmail.com</em> con la foto elegida, nombre completo y modelo de smartphone.</p>
+                <p>* Para <strong>"MOCHILAS Y MÁS"</strong> y <strong>"MERCHANDISING"</strong> enviar un mail a <em>libreria.sapphirus@gmail.com</em> con el objeto que se vaya a encargar y se enviará un catálogo con los productos disponibles.</p>
+                <p><strong>RECORDATORIO:</strong> Todos los encargos se deben recoger en la papelería, no se envían a domicilio. </p>
+            </aside>
+        </section>
+        <section class="proboton">
+            <button class="button volverarriba">
+                    <a href="#volverarriba"><img src="imagenes/arriba.png" alt="Flecha hacia arriba"></a>
+                </button>
+        </section>
+        <footer>
+            <p> &copy; 2024 | Aviso Legal | @Libreria.Sapphirus </p>
+        </footer>
+    </body>
+</html>
