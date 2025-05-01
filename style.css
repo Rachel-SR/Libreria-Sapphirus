@@ -719,14 +719,14 @@ td strong {
 }
 @media screen and (max-width:576px){
     .titulo h1 {
-        font-size: 50px;
+        font-size: 15px;
         width: 60%;
         margin-bottom: 15px;
         margin-left: 25%;
         margin-right: 2%;
     }
     .titulo h2 {
-        font-size: 25px;
+        font-size: 12px;
         display: inline-block;
         margin-bottom: 35px;
         margin-left: 39%;
