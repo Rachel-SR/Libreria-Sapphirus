@@ -456,10 +456,14 @@ td strong {
     margin-left: 80px;
     font-size: 15px;
     width: 60%;
+    text-align: left;
 }
 .mini-max img {
     max-width: 320px;
+    width: 100%;
+    height: auto;
     display: block;
+    margin-left: 0;
 }
 .benefi h5 {
     font-family: "Century Gothic";
@@ -723,7 +727,7 @@ td strong {
     }
     .mini-max img {
         max-width: 90%;
-        height: auto;
+        margin: 15px auto;
     }
     .tit1 {
         margin-top: 12%;
@@ -902,7 +906,7 @@ td strong {
     }
     .mini-max img {
         max-width: 95%;
-        height: auto;
+        margin: 10px auto;
     }
     .benefi {
         margin: auto;
