@@ -727,7 +727,8 @@ td strong {
     .titulo h2 {
         font-size: 1.5rem;
         margin-left: 0;
-        margin-top: 15px;
+        margin-top: 25px;
+        text-align: center;
     }
     .titulo img {
         display: none;
