@@ -505,15 +505,14 @@ td strong {
 }
 /*Página de contacto*/
 .conta {
-    margin-top: 100px;
+    width: 60%;
+    margin: 8% auto;
     border: 3px solid #badcb6;
     border-bottom: none;
     border-top: none;
     border-radius: 20%;
-    padding: 45px;
-    padding-top: 20px;
-    margin-right: 200px;
-    margin-left: 200px;
+    text-align: center;
+    padding: 20px;
 }
 /*Dirección*/
 .direc h4 {
@@ -521,7 +520,7 @@ td strong {
     color: #83c499;
     font-size: 20px;
     text-decoration: underline dotted;
-    margin-left: 50px;
+    margin: 10px 0;
 }
 .direc address {
     font-size: 15px;
@@ -530,10 +529,8 @@ td strong {
     margin-left: 50px;
 }
 /*Teléfono*/
-.telef {
-    text-align: center;
-}
 .telef h4 {
+    margin: 10px 0;
     font-family: "Century Gothic";
     color: #83c499;
     font-size: 20px;
@@ -543,6 +540,7 @@ td strong {
     font-size: 15px;
     list-style: none;
     font-weight: bold;
+    margin: 5px 0;
 }
 /*Redes sociales*/
 .redes h4 {
@@ -550,10 +548,11 @@ td strong {
     color: #83c499;
     font-size: 20px;
     text-decoration: underline dotted;
-    margin-left: 50px;
+    margin: 10px 0;
 }
 .redes {
     text-align: center;
+    margin: 0;
 }
 /*Página de contacto*/
 .conta {
@@ -736,12 +735,6 @@ td strong {
         width: 80%;
         border-radius: 10%;
     }
-    .redes {
-        margin-left: 0;
-    }
-    .redes h4 {
-        margin-right: 0;
-    }
 }
 
 
@@ -919,8 +912,8 @@ td strong {
     }
      .conta {
         width: 95%;
-        margin-top: 10%;
         border-radius: 5%;
+        padding: 15px;
     }
 }
 @media (min-width: 768px) {
