@@ -368,6 +368,7 @@ footer {
     height: 250px;
     margin: 0 auto;
     display: block;
+    margin-left: 20px;
 }
 .tarjeta-puntos p {
     font-size: 15px;
