@@ -913,9 +913,10 @@ td strong {
         width: 70%;
     }
      .conta {
-        width: 70%;
+        width: 90%;
         margin: auto;
         margin-top: 10%;
+        text-align: center;
     }
 }
 @media (min-width: 768px) {
