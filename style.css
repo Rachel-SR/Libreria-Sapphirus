@@ -7,26 +7,25 @@ body {
     padding: 0px;
 }
 /*título de la página*/
-.titulo h1, h2 {
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 20px;
+.titulo {
     font-family: "French Script MT";
+    padding: 15px;
+    margin-bottom: -35px;
 }
 .titulo h1 {
-    font-size: 80px;
+    font-size: 70px;
 	color: #83c499;
+    display: inline-block;
     }
 .titulo h2 {
     font-size: 40px;
     display: inline-block;
-    margin-left: 38%;
+    margin-left: 47%;
 }
 .titulo img {
     max-width: 60px;
     height: auto;
     margin-bottom: -10px;
-    display: inline-block;
 }
 header {
     border-bottom: 5px solid #83c499; 
@@ -719,6 +718,7 @@ td strong {
 @media screen and (max-width:576px){
     .titulo {
         text-align: center;
+        margin: 0 auto;
     }
     .titulo h1 {
         font-size: 2rem;
