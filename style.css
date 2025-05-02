@@ -519,6 +519,7 @@ td strong {
 /*Dirección*/
 .direc {
     margin-bottom: 30px;
+    text-align: center;
 }
 .direc h4 {
     font-family: "Century Gothic";
@@ -536,6 +537,7 @@ td strong {
 /*Teléfono*/
 .telef {
     margin-bottom: 30px;
+    text-align: center;
 }
 .telef h4 {
     margin: 10px;
@@ -543,12 +545,14 @@ td strong {
     color: #83c499;
     font-size: 20px;
     text-decoration: underline dotted;
+    text-align: center;
 }
 .telef li {
     font-size: 15px;
     list-style: none;
     font-weight: bold;
     margin: 5px 0;
+    text-align: center;
 }
 /*Redes sociales*/
 .redes h4 {
@@ -561,58 +565,6 @@ td strong {
 .redes {
     text-align: center;
     margin: 0 auto;
-}
-/*Página de contacto*/
-.conta {
-    width: 60%;
-    margin: auto;
-    margin-top: 8%;
-    border: 3px solid #badcb6;
-    border-bottom: none;
-    border-top: none;
-    border-radius: 20%;
-}
-/*Dirección*/
-.direc {
-    text-align: center;
-}
-.direc h4 {
-    font-family: "Century Gothic";
-    color: #83c499;
-    font-size: 20px;
-    text-decoration: underline dotted;
-}
-.direc li {
-    font-size: 15px;
-    list-style: none;
-    font-weight: bold;
-}
-/*Teléfono*/
-.telef {
-    text-align: center;
-}
-.telef h4 {
-    font-family: "Century Gothic";
-    color: #83c499;
-    font-size: 20px;
-    text-decoration: underline dotted;
-}
-.telef li {
-    font-size: 15px;
-    list-style: none;
-    font-weight: bold;
-}
-/*Redes sociales*/
-.redes h4 {
-    font-family: "Century Gothic";
-    color: #83c499;
-    font-size: 20px;
-    text-decoration: underline dotted;
-    margin-right: 50px;
-}
-.redes {
-    text-align: center;
-    margin-left: 50px;
 }
 .redes p {
     font-size: 15px;
