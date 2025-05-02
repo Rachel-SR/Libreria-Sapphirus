@@ -365,10 +365,9 @@ footer {
 .tarjeta-puntos img {
     max-width: 400px;
     height: 250px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
+    margin-bottom: 50px;
 }
 /*boton de volver arriba*/
 .serboton {
@@ -714,8 +713,6 @@ td strong {
         max-width: 70%;
         height: auto;
         margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .tit1 {
         margin-top: 12%;
@@ -878,8 +875,6 @@ td strong {
         max-width: 90%;
         height: auto;
         margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .tit1 {
         margin-top: 30px;
