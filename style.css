@@ -7,27 +7,28 @@ body {
     padding: 0px;
 }
 /*título de la página*/
-.titulo {
-    margin-bottom: -20px;
+.titulo h1, h2 {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: "French Script MT";
 }
 .titulo h1 {
-    margin-bottom: 50px;
-	font-family: "French Script MT";
     font-size: 80px;
 	color: #83c499;
     display: inline-block;
-    margin-left: 20px;
+    float: left;
     }
 .titulo h2 {
-    font-family: "French Script MT";
     font-size: 40px;
     display: inline-block;
-    margin-left: 40%;
+    margin-left: 38%;
 }
 .titulo img {
     max-width: 60px;
     height: auto;
     margin-bottom: -10px;
+    display: inline-block;
 }
 header {
     border-bottom: 5px solid #83c499; 
@@ -717,18 +718,17 @@ td strong {
         margin-top: 15%;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:576px){
     .titulo {
-        padding: 19px;
-        margin-top: 20px;
+        text-align: center;
     }
     .titulo h1 {
         font-size: 2rem;
-        margin-bottom: 10px;
+        padding: 5px 10px;
     }
     .titulo h2 {
         font-size: 1.6rem;
-        margin-bottom: 20px;
+        padding: 5px 10px;
         display: inline-block;
     }
     .titulo img {
