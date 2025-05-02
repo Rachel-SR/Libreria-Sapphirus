@@ -359,13 +359,15 @@ footer {
 .tarjeta-puntos {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-size: 15px;
-    margin: auto 70px;
+    margin: 0 auto;
+    text-align: center;
 }
 .tarjeta-puntos img {
     max-width: 400px;
     height: 250px;
-    margin: auto;
+    margin: 0 auto;
     display: block;
     margin-bottom: 50px;
 }
