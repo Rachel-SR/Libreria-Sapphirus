@@ -718,11 +718,13 @@ td strong {
 @media screen and (max-width:576px){
     .titulo {
         text-align: center;
-        margin: 0 auto;
+        margin-bottom: 0;
     }
     .titulo h1 {
         font-size: 2rem;
         padding: 5px 10px;
+        display: block;
+        margin: 0 auto;
     }
     .titulo h2 {
         font-size: 1.6rem;
