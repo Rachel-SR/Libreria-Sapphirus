@@ -717,7 +717,7 @@ td strong {
         margin-top: 15%;
     }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:768px){
     .titulo {
         text-align: center;
         padding: 10px;
