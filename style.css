@@ -360,13 +360,15 @@ footer {
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin: auto 90px;
+    margin: auto 70px;
 }
 .tarjeta-puntos img {
     max-width: 400px;
     height: 250px;
     margin-bottom: 50px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 /*boton de volver arriba*/
 .serboton {
@@ -709,8 +711,11 @@ td strong {
         text-align: center;
     }
     .tarjeta-puntos img {
-        margin: auto;
-        margin-top: 30px;
+        max-width: 70%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tit1 {
         margin-top: 12%;
@@ -870,8 +875,11 @@ td strong {
         margin-bottom: 60px;
     }
     .tarjeta-puntos img {
-        margin: auto;
-        margin-top: 30px;
+        max-width: 90%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .tit1 {
         margin-top: 30px;
