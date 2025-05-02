@@ -720,11 +720,11 @@ td strong {
         flex-direction: column;
     }
     .titulo h1 {
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin-bottom: 10px;
     }
     .titulo h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .titulo img {
         display: none;
