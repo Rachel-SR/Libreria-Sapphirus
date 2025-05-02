@@ -10,17 +10,16 @@ body {
 .titulo {
     font-family: "French Script MT";
     padding: 15px;
-    margin-bottom: -35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .titulo h1 {
     font-size: 70px;
 	color: #83c499;
-    display: inline-block;
     }
 .titulo h2 {
     font-size: 40px;
-    display: inline-block;
-    margin-left: 47%;
 }
 .titulo img {
     max-width: 60px;
@@ -718,18 +717,14 @@ td strong {
 @media screen and (max-width:576px){
     .titulo {
         text-align: center;
-        margin-bottom: 0;
+        flex-direction: column;
     }
     .titulo h1 {
         font-size: 2rem;
-        padding: 5px 10px;
-        display: block;
-        margin: 0 auto;
+        margin-bottom: 10px;
     }
     .titulo h2 {
         font-size: 1.6rem;
-        padding: 5px 10px;
-        display: inline-block;
     }
     .titulo img {
         display: none;
