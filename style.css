@@ -459,6 +459,7 @@ td strong {
 }
 .mini-max img {
     max-width: 320px;
+    display: block;
 }
 .benefi h5 {
     font-family: "Century Gothic";
@@ -720,6 +721,10 @@ td strong {
         height: auto;
         margin-top: 20px;
     }
+    .mini-max img {
+        max-width: 90%;
+        height: auto;
+    }
     .tit1 {
         margin-top: 12%;
     }
@@ -727,7 +732,7 @@ td strong {
         width: 80%;
         margin: auto;
         margin-top: 15%;
-    }
+    }   
 }
 
 
@@ -894,6 +899,10 @@ td strong {
     }
     .libros-nuevos img {
         margin-top: 20px;
+    }
+    .mini-max img {
+        max-width: 95%;
+        height: auto;
     }
     .benefi {
         margin: auto;
