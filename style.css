@@ -505,15 +505,15 @@ td strong {
 }
 /*Página de contacto*/
 .conta {
+    width: 80%;
     max-width: 800px;
-    width: 60%;
     margin: 8% auto;
     border: 3px solid #badcb6;
     border-bottom: none;
     border-top: none;
     border-radius: 20%;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
     box-sizing: border-box;
 }
 /*Dirección*/
@@ -740,7 +740,7 @@ td strong {
         margin-top: 12%;
     }
     .conta {
-        width: 85%;
+        width: 90%;
         padding: 25px;
         border-radius: 10%;
     }
@@ -922,10 +922,7 @@ td strong {
      .conta {
         width: 95%;
         border-radius: 5%;
-        padding: 20px;
-    }
-    .direc h4, .telef h4, .redes h4 {
-        font-size: 18px;
+        padding: 15px;
     }
 }
 @media (min-width: 768px) {
