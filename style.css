@@ -923,8 +923,11 @@ td strong {
         width: 95%;
         border-radius: 5%;
         padding: 15px;
+        margin-top: 30px;
     }
 }
+
+
 @media (min-width: 768px) {
       .menu-icon {
         display: none;
