@@ -216,6 +216,9 @@ footer {
     max-width: 300px;
     height: auto;
     margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Página de productos*/
 /*Texto de información de productos*/
@@ -651,8 +654,9 @@ td strong {
         margin-top: 12%;
     }
     .JuliayPablo {
-        float: none;
-        margin: 30px auto;
+        max-width: 70px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .informacion h3 {
         margin-top: 23%;
@@ -795,12 +799,9 @@ td strong {
        width: 90%;
     }
     .JuliayPablo {
-        display: block;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
-        max-width: 100%;
-        height: auto;
     }
     .informacion h3 {
         margin-top: 10%;
