@@ -360,7 +360,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
     margin: 0 auto;
     text-align: center;
 }
@@ -369,7 +368,11 @@ footer {
     height: 250px;
     margin: 0 auto;
     display: block;
-    margin-bottom: 50px;
+}
+.tarjeta-puntos p {
+    font-size: 15px;
+    margin-right: 90px;
+    margin-left: 20px;
 }
 /*boton de volver arriba*/
 .serboton {
