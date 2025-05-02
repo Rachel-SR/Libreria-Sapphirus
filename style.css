@@ -505,7 +505,7 @@ td strong {
 }
 /*Página de contacto*/
 .conta {
-    width: 90%;
+    width: 80%;
     max-width: 800px;
     margin: 8% auto;
     border: 3px solid #badcb6;
@@ -877,10 +877,7 @@ td strong {
     }
      .conta {
         width: 95%;
-        border-radius: 5%;
         padding: 15px;
-        margin-top: 10%;
-        align-items: center;
     }
 }
 
