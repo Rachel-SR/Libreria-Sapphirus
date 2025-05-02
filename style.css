@@ -923,7 +923,8 @@ td strong {
         width: 95%;
         border-radius: 5%;
         padding: 15px;
-        margin-top: 80px;
+        margin-top: 10%;
+        align-items: center;
     }
 }
 
