@@ -505,7 +505,7 @@ td strong {
 }
 /*Página de contacto*/
 .conta {
-    width: 80%;
+    width: 90%;
     max-width: 800px;
     margin: 8% auto;
     border: 3px solid #badcb6;
@@ -530,7 +530,6 @@ td strong {
 }
 .direc address {
     font-size: 15px;
-    text-align: center;
     font-weight: bold;
     margin: 5px 0;
 }
@@ -538,21 +537,19 @@ td strong {
 .telef {
     margin-bottom: 30px;
     text-align: center;
-     margin: 5px 0;
 }
 .telef h4 {
-    margin: 10px;
     font-family: "Century Gothic";
     color: #83c499;
     font-size: 20px;
     text-decoration: underline dotted;
-    text-align: center;
+    margin: 10px;
 }
 .telef li {
     font-size: 15px;
     list-style: none;
     font-weight: bold;
-    text-align: center;
+    margin: 5px 0;
 }
 /*Redes sociales*/
 .redes h4 {
@@ -564,11 +561,12 @@ td strong {
 }
 .redes {
     text-align: center;
-    margin: 5px 0;
+    margin-bottom: 30px;
 }
 .redes p {
     font-size: 15px;
     font-weight: bold;
+    margin: 5px 0;
 }
 /*Botón de volver arriba*/
 .conboton {
