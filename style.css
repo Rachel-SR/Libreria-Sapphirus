@@ -20,6 +20,7 @@ body {
     }
 .titulo h2 {
     font-size: 40px;
+    margin-left: 35%;
 }
 .titulo img {
     max-width: 60px;
@@ -593,6 +594,7 @@ td strong {
     .titulo h2 {
         font-size: 35px;
         display: inline;
+        margin-left: 0;
     }
     .presentacion {
         width: 80%;
