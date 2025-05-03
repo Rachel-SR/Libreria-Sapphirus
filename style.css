@@ -614,9 +614,7 @@ td strong {
         margin: 0;
     }
     .subtitulo img {
-        max-width: 50px;
-        margin-bottom: 0;
-        margin-top: 10px;
+        display: none;
     }
     .presentacion {
         width: 80%;
@@ -736,7 +734,7 @@ td strong {
         margin-top: 15px;
     }
     .subtitulo img {
-        max-width: 40px;
+        display: none;
     }
     /*Menú hamburguesa*/
     .menu-icon {
