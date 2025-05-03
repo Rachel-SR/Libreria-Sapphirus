@@ -9,10 +9,11 @@ body {
 /*título de la página*/
 .titulo {
     font-family: "Playball";
-    padding: 15px;
+    padding: 15px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .titulo h1 {
     font-size: 70px;
@@ -601,19 +602,21 @@ td strong {
     }
     .titulo h1 {
         font-size: 40px;
+        margin-bottom: 15px;
     }
-    subtitulo {
+    .subtitulo {
         flex-direction: column;
         align-items: center;
-        margin-top: 50px;
+        display: flex;
     }
     .subtitulo h2 {
         font-size: 30px;
+        margin: 0;
     }
     .subtitulo img {
         max-width: 50px;
         margin-bottom: 0;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .presentacion {
         width: 80%;
