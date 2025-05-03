@@ -13,22 +13,16 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 .titulo h1 {
     font-size: 70px;
 	color: #83c499;
     margin: 0;
-    order: 1;
-    flex: 1;
-    min-width: 200px;
 }
 .subtitulo {
     display: flex;
     align-items: center;
     grid-gap: 10px;
-    margin-left: auto;
-    order: 2;
 }
 .subtitulo h2 {
     font-size: 40px;
@@ -603,17 +597,15 @@ td strong {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 30px;
     }
     .titulo h1 {
         font-size: 40px;
-        order: 1;
     }
     subtitulo {
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
-        order: 2;
+        margin-top: 10px;
     }
     .subtitulo h2 {
         font-size: 30px;
@@ -621,6 +613,7 @@ td strong {
     .subtitulo img {
         max-width: 50px;
         margin-bottom: 0;
+        margin-top: 5px;
     }
     .presentacion {
         width: 80%;
@@ -732,19 +725,8 @@ td strong {
 
 
 @media screen and (max-width:576px){
-    .titulo {
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .subtitulo {
-        flex-direction: column;
-        grid-gap: 5px;
-        order: 2;
-    }
     .titulo h1 {
         font-size: 2.2rem;
-        order: 1;
     }
     .subtitulo h2 {
         font-size: 1.5rem;
