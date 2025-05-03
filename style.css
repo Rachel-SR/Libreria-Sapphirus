@@ -740,9 +740,11 @@ td strong {
     .subtitulo {
         flex-direction: column;
         grid-gap: 5px;
+        order: 2;
     }
     .titulo h1 {
         font-size: 2.2rem;
+        order: 1;
     }
     .subtitulo h2 {
         font-size: 1.5rem;
