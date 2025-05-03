@@ -727,6 +727,7 @@ td strong {
 @media screen and (max-width:576px){
     .titulo h1 {
         font-size: 2.2rem;
+        margin-bottom: 30px;
     }
     .subtitulo {
         margin-top: 50px;
