@@ -367,21 +367,20 @@ footer {
 .tarjeta-puntos {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    text-align: center;
+    font-size: 15px;
+    margin: auto 90px;
+    margin-bottom: 30px;
 }
 .tarjeta-puntos img {
     max-width: 400px;
     height: 250px;
     margin: 0 auto;
+    margin-right: 50px;
     display: block;
     margin-left: 30px;
 }
 .tarjeta-puntos p {
     font-size: 15px;
-    margin-right: 90px;
-    margin-left: 20px;
 }
 /*boton de volver arriba*/
 .serboton {
